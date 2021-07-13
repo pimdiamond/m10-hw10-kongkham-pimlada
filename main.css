@@ -11,13 +11,18 @@ header {
   background: lightblue;
   text-align: center;
   padding: 2%;
-  color: darkblue;
+  color: #0c528a;
 }
 
 h2 {
-  color: darkblue;
+  color: #0c528a;
 }
 
+p {
+  /* color: #003661; */
+  color: #8a012f;
+  font-weight: bold;
+}
 section {
   text-align: center;
 }

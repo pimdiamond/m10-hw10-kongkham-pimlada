@@ -1,6 +1,6 @@
 
 
-const waterTemp = 213; 
+const waterTemp = 31; 
 
 let boilingSpan = document.getElementById('boiling-temp');
 // boilingSpan.innerHTML = 212;
