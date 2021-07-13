@@ -1,6 +1,6 @@
 
 
-const waterTemp = 33; 
+const waterTemp = 213; 
 
 let boilingSpan = document.getElementById('boiling-temp');
 // boilingSpan.innerHTML = 212;
@@ -33,23 +33,37 @@ CurrentTemp();
 
 const hotTemp = document.getElementById("boiling")
 if (waterTemp>212) {
-hotTemp.classList.remove("hide");
-hotTemp.classList.add("show");
+    setTimeout(function(){
+        hotTemp.classList.remove("hide");
+        hotTemp.classList.add("show"); 
+    }, 3000);
 }
+
 
 // If the number stored in “water-temp” is below 32, remove the class “hide” and add the class “show” to the section with the ID “frozen” so that the message “The water is cold. I think it is frozen.” appears
 
-const frozonTemp = document.getElementById("frozen")
-if (waterTemp<32) {
-    frozonTemp.classList.remove("hide");
-    frozonTemp.classList.add("show");
+    const frozonTemp = document.getElementById("frozen")
+    if (waterTemp<32) {
+        setTimeout(function(){
+            frozonTemp.classList.remove("hide");
+            frozonTemp.classList.add("show"); 
+        }, 3000);
     }
 
 // If the number stored in “water-temp” is neither above 212 nor below 32, remove the class “hide” and add the class “show” to the section with the ID “good-temp” so that the message “The water is fine. Jump on in.” appears
 
 const goodTemp = document.getElementById("good-temp")
 if (waterTemp<212 && waterTemp>32) {
-goodTemp.classList.remove("hide");
-goodTemp.classList.add("show");
-
+    setTimeout(function(){
+        goodTemp.classList.remove("hide");
+        goodTemp.classList.add("show"); 
+    }, 3000);
 }
+
+
+// setTimeout(function(){ alert("Hello"); }, 3000);
+
+
+
+
+
