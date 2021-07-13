@@ -13,14 +13,13 @@ let curentSpan = document.getElementById('water-temp');
 
 // using an arrow function
 
-FreezingTemp = () => freezingSpan.innerHTML = 32;
+let FreezingTemp = () => freezingSpan.innerHTML = 32;
 FreezingTemp();
-
-BoilingTemp  = () => boilingSpan.innerHTML = 212;
+let BoilingTemp  = () => boilingSpan.innerHTML = 212;
 BoilingTemp();
-
-CurrentTemp = () => curentSpan.innerHTML = waterTemp;
+let CurrentTemp = () => curentSpan.innerHTML = waterTemp;
 CurrentTemp();
+
 
 
 // function BoilingTemp () {
