@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pimdiamond/m10-hw10-kongkham-pimlada/issues"
   },
-  "homepage": "https://github.com/pimdiamond/m10-hw10-kongkham-pimlada#readme"
+  "homepage": "https://github.com/pimdiamond/m10-hw10-kongkham-pimlada#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
